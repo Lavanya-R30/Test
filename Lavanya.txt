@@ -1,0 +1,139 @@
+1.Method overloading is having two or more same name but different parameters is called method overloading.
+
+example:
+ class Cake {
+   Static void tasty(String name,int price)
+     {
+     System.out.println(" Invoking the main method of cake");
+     }
+    System.out.println("cake name:"+ name);
+    System.out.println("cake price:"+ price);
+  }
+
+
+  
+class CakeRunner {
+ public static void main(String[] args)
+  {
+    tasty.name="cupcake";
+    tasty.price= 100;
+ }
+}
+
+
+2.Variables are used to store the values in the program. 
+   there are 3 different kinds of variables
+   
+    1. local variable
+    2. instance variable
+    3. static variable
+
+1. local variable: in local variable inside the class in the method.
+   example:
+        class Flowers {
+           public static void main(String[] args) {
+                System.out.println("invoking the main method in flowers");
+                  String name="Rose";
+                    }
+                 }
+2. Instance variable: in instance variable inside the class and outside the method.
+   example:  
+           class Battery{
+            
+                    String brand;
+                    }
+           
+            class BatteryRunner {
+              public static void main(String[] args) {
+                   String brand="Realme";
+                  }
+                }
+3.Static variable: in static variable without creating the object and it copies the single static in the variable.
+  example:
+         class mobile {
+           Static void place(String name) {
+              System.ou.println("mobile name:"+ vivo);
+               }
+             }
+
+
+
+3. Heap:
+    1.heap is used to store the memory allocation in the stack.
+    2.In heap we  load and store memory in the stack.
+    3.in memory allocation have metaspace, constant pool,instance memory
+    4.Heap stack is used to load and store the memory.
+    5. it a track the address of the memory.
+
+   Stack memory:
+    1. Stack memory is contains the programming in java .
+     2. it executes the memory the java program.
+     3. collecting the information and address of  the memory.
+     4.Stack frame contains the  methods from the constant pool .
+      5. to execute the methods in the program.
+
+
+7. class Mall {
+      String mallName;
+      String mallLocation;
+        System.out.println(" invoking the main method of mall");
+
+        
+
+          System.out.println(String mallName);
+            this.mallName;
+            this.mallName=mallName;
+         System.out.println("Invoking the string in arguments");
+
+           System.out.println(String mallName,String mallLocation);
+           this(mallName,mallLocation);
+           this.mallLocation=mallLocation;
+           System.ou.println("invoking the Sting,String in arguments");
+}
+  
+class MallRunner{
+ public static void main(String[] args) {
+   Mall mall=new Mall("LULU","Banglore");
+}
+
+
+
+4. class car{
+    
+    String carName;
+    int price;
+   }
+  
+   Car() 
+    {
+     System.out.println(" invoking name:"+ carName);
+     System.out.println(" invoking price:"+ price);
+     }
+
+class CarRunner {
+ 
+     public static void main(String[] args) {
+       Car cars=new Car("suzuki");
+       Car cars=new Car("45588");
+   }
+}
+
+
+6. class Person{
+    Static void Name(String personName,int age) {
+       System.out.println(" invoking the person name:"+Name);
+       System.out.println(" invoking the age:"+age);
+    }
+  }
+class PersonMain {
+   public static void main(String[] args) {
+    Name.personName="anu"
+    Name.age="34";
+}
+}
+       
+
+
+
+
+   
